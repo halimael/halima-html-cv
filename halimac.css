@@ -153,6 +153,10 @@ button:active{
 	/*border-radius: 50%;*/
 
 }
+.cont{
+	color: #000000;
+	font-weight: bold;
+}
 .about-text{
 	width:550px;
 	color: white;
@@ -187,7 +191,13 @@ button:active{
 	outline: none;
 	border: none;
 	font-family: calibri;
-	background-color:#ffffff; 
+	background-color:#ffffff;
+	/* width: 100px;
+	height: 30px;
+	background-color: #ffffff;
+	border: none; */
+	outline: none;
+	border-radius: 5px; 
 }
 /* competance1---------------------------------- */
 .services{
@@ -339,8 +349,8 @@ button:active{
 	line-height: 0px; 
 }
 .etudes span{
-	width: 250px;
-	height: 250px;
+	width: 220px;
+	height: 220px;
 	border-radius: 50%;
 	background-color: white;
 	display: flex;
