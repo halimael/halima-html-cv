@@ -22,6 +22,7 @@ body {
 /*.nom {
 	font-size: 15px;
 }*/
+/* acceuil--------------------------------------------- */
 ul {
 	list-style: none;
 }
@@ -42,7 +43,7 @@ nav {
 	align-items: center;
 	height: 60px;
 	width: 90%;
-	background-color: #8f1540; 
+	background-color: #d31356; 
 	box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
 	padding: 0px 5%;
 	position: fixed;
@@ -111,8 +112,11 @@ nav ul li a {
 	margin: 0px 10px;
 }
 .hire-btn {
-	border: 2px solid #1a1717;
+	/* border: 2px solid #1a1717; */
 	color: #1a1717;
+}
+.tele{
+	background-color: #1a1717;
 }
 .down-cv {
 	background-color: #1a1717;
@@ -131,6 +135,7 @@ button:active{
 	transform: translateX(-70%);
 	border-radius: 40%;  
 }
+/* -----------------------------------------------------------profil */
 .about-container {
 	width: 80%;
 	height: 330px;
@@ -184,6 +189,7 @@ button:active{
 	font-family: calibri;
 	background-color:#ffffff; 
 }
+/* competance1---------------------------------- */
 .services{
 	height: 600px;
 	padding: 2% 10% 0px 10%;
@@ -214,7 +220,7 @@ button:active{
 	/*width: 500px;*/
 	margin: 50px 0px;
 }
-/*competance----------------------*/
+/*competance2----------------------*/
 .box-1, .box-2, .box-3{
 	width: 300px;
 	height: 320px;
@@ -296,15 +302,16 @@ button:active{
 	margin: 0px 0px 20px 0px;
 	color: white;
 }
+/* madame j'allais faire des liens externes mais ca ne marche bien  */
 .box-1 button,
 .box-2 button,
 .box-3 button{
-	width: 100px;
+	/* width: 100px;
 	height: 30px;
 	background-color: #ffffff;
 	border: none;
 	outline: none;
-	border-radius: 5px;
+	border-radius: 5px; */
 }
 /*etude-----------------------*/
 .etudes{
@@ -437,18 +444,18 @@ button:active{
 .projet-1 button,
 .projet-2 button,
 .projet-3 button{
-	width: 100px;
+	/* width: 100px;
 	height: 30px;
 	background-color: #ffffff;
 	border: none;
 	outline: none;
-	border-radius: 5px;
+	border-radius: 5px; */
 }
 /*contact--------------------*/
 .contact-me {
 	width: 100%;
 	height: 280px;
-	background-color: #8f1540;
+	background-color: #d31356;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -469,7 +476,9 @@ button:active{
 	outline: none;
 	border: none;
 	font-size: 14px;
+	/* color: #000000; */
 	font-weight: bold;
+	/* border-radius: 10%; */
 }
 footer {
 	height: 300px;
@@ -521,12 +530,12 @@ footer p:nth-child(2){
 	color: #ffffff;
 }
 .social-icons a:hover {
-	background-color: #000000;
+	background-color: #ffffff;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 	transition: all ease 0.5s;
 }
 .social-icons a:hover i{
-	color: #ffffff;
+	color: #bd265b;
 	transition: all ease 0.5s;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
@@ -556,9 +565,12 @@ footer p:nth-child(2){
 	font-size: 20px;
 }
 .social-b a:hover{
-	background-color: #bd265b;
+	background-color: #ffffff;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 	transition: all ease 0.5s;
+}
+.social-b a:hover i{
+	color: #000000;
 }
 .nom {
 	font-size: 20px;
